@@ -1,4 +1,4 @@
-# java-read-p12
+# java-read-p12 using Bouncycastle
 Read certificate details from p12/pfx file
 
 This is the java program to retrieve the certificate details from the p12 file
