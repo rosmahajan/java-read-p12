@@ -34,3 +34,12 @@ java.io.IOException: keystore password was incorrect
 	at com.ros.read.p12.ReadP12File.main(ReadP12File.java:18)
 Caused by: java.security.UnrecoverableKeyException: failed to decrypt safe contents entry: javax.crypto.BadPaddingException: Given final block not properly padded
 	... 4 more
+
+
+Execution
+
+Build the project using maven 
+
+1. mvn clean install
+2. Jar with dependencies will be created 
+3. RUN java -jar java-read-p12-1.0-jar-with-dependencies.jar
