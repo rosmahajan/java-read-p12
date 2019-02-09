@@ -3,8 +3,8 @@ Read certificate details from p12/pfx file
 
 This is the java program to retrieve the certificate details from the p12 file
 
-Before starting ensure you have, your p12 file handy with password as well as you know its alais
-Once you know all the details place it in application.properties
+Before starting ensure you have, your p12 file handy with password as well as you know its alias
+Once you know all the details place p12 loation at application.properties
 
 Below is the structure of it 
 
