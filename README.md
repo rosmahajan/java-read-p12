@@ -1,4 +1,4 @@
-# java-read-p12 using Bouncycastle
+# Java-read-p12 using Bouncycastle
 Read certificate details from p12/pfx file
 
 This is the java program to retrieve the certificate details from the p12 file
@@ -12,7 +12,7 @@ p12.keyStoreFile=ZXXXX.p12
 p12.keyStorePass=pass
 p12.keyStoreAllias=alias
 
-Exception
+# Exception
 
 If you file doesn't exists, program will throw FileNotFoundException as below
 
@@ -36,7 +36,7 @@ Caused by: java.security.UnrecoverableKeyException: failed to decrypt safe conte
 	... 4 more
 
 
-Execution
+# Execution
 
 Build the project using maven 
 
